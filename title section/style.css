@@ -1,20 +1,26 @@
 
+:root{
+   --titlesectionprimarycolor: hsl(208, 25%, 42%);
+}   
+   
+   
    #title{
+      color: var(--titlesectionprimarycolor);
       text-align: center;
       padding-top: 200px;
       background-image: url('../mywebsite/images/photo-164448.avif');
       background-position: center top;
 }
 
-
-
-
-   #ht{
-     color: yellow;
+.title-section-button{
+   color: var(--titlesectionprimarycolor);
+   border: solid var(--titlesectionprimarycolor) 1px;
+   border-radius: 20px;
+   padding: 15px 20px;
+   background-color: transparent;
 }
-
- button:hover{
-        background-color: blue;
-         font-size: 20px;
+ .title-section-button:hover{
+        background-color: brown;
+         
  
 }
