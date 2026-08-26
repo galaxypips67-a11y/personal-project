@@ -1,6 +1,7 @@
 
 :root{
-   --titlesectionprimarycolor: hsl(208, 25%, 42%);
+   --titlesectionprimarycolor: rgb(95, 125, 151);
+   --titlesectionsecondarycolor:rgb(169, 151, 141);
 }   
    
    
@@ -20,7 +21,8 @@
    background-color: transparent;
 }
  .title-section-button:hover{
-        background-color: brown;
+        background-color: var(--titlesectionprimarycolor);
+        color: var(--titlesectionsecondarycolor);
          
  
 }
