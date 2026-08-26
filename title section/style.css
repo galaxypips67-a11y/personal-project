@@ -5,13 +5,22 @@
 }   
    
    
-   #title{
+#title{
       color: var(--titlesectionprimarycolor);
       text-align: center;
       padding-top: 200px;
       background-image: url('../mywebsite/images/photo-164448.avif');
       background-position: center top;
 }
+
+.title-section-header{
+   margin-bottom: -11px;
+}
+
+.title-section-subtitle{
+   margin-bottom: 40px;
+}
+
 
 .title-section-button{
    color: var(--titlesectionprimarycolor);
